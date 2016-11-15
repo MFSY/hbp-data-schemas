@@ -917,7 +917,7 @@
       "description": "Additional properties that can be attached to an entity. The properties have to be described in an ontology as features properties and hold information about the feature type and value restrictions if applicable.",
       "properties": {
         "key": {
-          "description": "The link to datatype property in the hbp attribute ontology",
+          "description": "The link to an ontology term describing the attribute: type, unit, values range,...",
           "$ref": "#/definitions/onto_term"
         },
         "value": {
